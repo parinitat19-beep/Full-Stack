@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Lets learn it</title>
+</head>
+
+<body>
+    <h1>Form to apply for Sigma Web Development course - TA </h1>
+    <form action="post"> <!-- form tag is used to create a form.  -->
+        <div>
+            <label for="username">Enter your Username</label> <!-- label tag is used to define a label for an input element. The for attribute of the label tag should be the same as the id of the input element to bind them together. -->
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male"> <!-- radio button is used to select one option from a set of options.  -->
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes"> <!-- checkbox is used to select one or more options from a set of options.  -->
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+
+        <div>
+            <select name="fruits"> <!-- dropdown menu -->
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+          </select>
+        </div>
+    </form>
+</body>
+
+</html> 

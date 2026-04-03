@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css"> <!-- This is how we link a CSS file to our HTML file. The rel attribute specifies the relationship between the current document and the linked document. The href attribute specifies the URL of the linked document. -->
+</head>
+
+<body>
+    <img height="230" src="image.png" alt="Train image"> 
+    <!-- to add image -->
+    <br>
+    <table>
+        <!-- used for making table -->
+        <caption>Employee Details</caption> <!-- Title of the table -->
+        <thead>
+            <tr> <!-- table row -->
+                <th>Name</th> <!-- table header -->
+                <th>Designation</th>
+                <th>Fav Language</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            <tr>
+                <td>Harry</td>
+                <td>Programmer</td>
+                <td>JavaScript</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Sam</td> <!-- to merge two columns i.e it will take the space of two columns td is table data -->
+                <td rowspan="2">Java</td>
+            </tr>
+            <tr>
+                <td colspan="2">Sam</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Sam</td>
+                <td rowspan="2">foot</td>
+            </tr>
+        </tfoot> 
+    </table>
+
+
+    <ul type="square"> <!-- unordered list -->
+        <li>Harry</li> <!-- list item -->
+        <li>Rohan</li>
+        <li>Shubham</li>
+    </ul>
+    <ol type="A"> <!-- ordered list -->
+        <li>Harry</li> <!-- list item -->
+        <li>Rohan</li>
+        <li>Shubham</li>
+    </ol>
+
+</body>
+
+</html>

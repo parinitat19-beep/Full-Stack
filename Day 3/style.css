@@ -1,0 +1,4 @@
+td{
+    border: 2px solid black; /* to add border to the table */
+    padding: 10px; /* to add space between the content and the border */
+}
